@@ -1,19 +1,35 @@
 #app-main {
-    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: #333;
+    color: #fff;
+    overflow: hidden;
     height: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .app-wrap {
     display: flex;
+    flex-direction: row;
+}
+
+.left-wrap {
+    display: flex;
     flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.right-wrap {
+    flex: 1;
+    background: #fff;
 }
 
 .title-wrap {
     display: flex;
     justify-content: center;
-    border: 2px solid #333;
-    background: rgb(204, 204, 204);
+    border: 2px solid #eaeaea;
+    background: #333;
     width: 500px;
 }
