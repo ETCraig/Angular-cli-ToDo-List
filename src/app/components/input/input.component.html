@@ -1,4 +1,4 @@
 <div id='input-main'>
-  <input class='input' type="text" placeholder="Add Goal!">
-  <button class='btn'>Add</button>
+  <input class='input' type="text" placeholder="Add Goal!" {{ngModel}}='inputText' value={{inputText}}>
+  <button class='btn' onclick="addToDo()">Add</button>
 </div>

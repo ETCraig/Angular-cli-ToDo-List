@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputComponent implements OnInit {
 
-  constructor() { }
+  public inputText: string;
+
+  //Like constructor in React creates initial state / data
+  constructor() {
+    this.inputText = '';
+   }
 
   ngOnInit() {
+  }
+  //Such as putting functions above the JSX in React or in <Script> tags in Vue below the HTML
+  public addToDo(): void {
+    this.inputText = '';
   }
 
 }
