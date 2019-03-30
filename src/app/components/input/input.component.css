@@ -1,0 +1,31 @@
+#input-main {
+    margin-top: 10px;
+}
+
+.input {
+    margin-bottom: 1.3rem;
+    width: 350px;
+    border-radius: 2px;
+    background: #181818;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin-left: 20px;
+    height: 2.3rem;
+    /* display: block; */
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #c91717;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    width: 100px;
+}
