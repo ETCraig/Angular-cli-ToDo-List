@@ -13,7 +13,7 @@ export class AddingService {
 
   constructor() {
     this.todoArray = [
-      new Todo(0, 'Show up on the DOM.')
+      new Todo(0, 'The first of many todos.')
     ];
     this.newTodo = 1;
   }

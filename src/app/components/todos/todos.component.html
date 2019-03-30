@@ -1,3 +1,3 @@
 <div id='todos-main'>
-  <button class='delete-btn' (click)="handleDeleteTodo()">Delete</button>{{todo.text}}
+  <button id='delete-btn' (click)="handleChangeTodo()" [ngClass]="{'unfinished' : toggle, 'finished': !toggle}">{{status}}</button>{{todo.text}}
 </div>

@@ -15,10 +15,9 @@
     left: 20%;
     margin-top: 15px;
 }
-
-.delete-btn {
+#delete-btn {
     display: inline-block;
-    background: #333;
+    /* background: #333; */
     color: #fff;
     text-decoration: none;
     padding: 1em 2em;
@@ -29,11 +28,19 @@
     cursor: pointer;
 }
 
+.unfinished {
+    background-color: #333;
+}
+
+.finished {
+    background-color: rgb(4, 130, 23);
+}
+
 @media(max-width: 355px) {
     #todos-main {
         font-size: 25px;
     }
-    .delete-btn {
+    #delete-btn {
         padding: .5em 1em;
         width: 70px;
     }
