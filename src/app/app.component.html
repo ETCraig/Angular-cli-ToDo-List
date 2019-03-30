@@ -8,6 +8,10 @@
         <app-input></app-input>
       </div>
     </div>
-    <div class='right-wrap'></div>
+    <div class='right-wrap'>
+      <div *ngFor='let todo of addingService.handleGetTodos()'>
+        <app-todos [todo]='todo'></app-todos>
+      </div>
+    </div>
   </div>
 </div>

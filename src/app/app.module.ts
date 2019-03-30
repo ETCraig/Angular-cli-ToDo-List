@@ -8,12 +8,14 @@ import { TitleComponent } from './components/title/title.component';
 import { InputComponent } from './components/input/input.component';
 
 import { AddingService } from './services/adding.service';
+import { TodosComponent } from './components/todos/todos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitleComponent,
-    InputComponent
+    InputComponent,
+    TodosComponent
   ],
   imports: [
     BrowserModule,
