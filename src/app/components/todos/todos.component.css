@@ -28,3 +28,13 @@
     margin-left: 1em;
     cursor: pointer;
 }
+
+@media(max-width: 355px) {
+    #todos-main {
+        font-size: 25px;
+    }
+    .delete-btn {
+        padding: .5em 1em;
+        width: 70px;
+    }
+}

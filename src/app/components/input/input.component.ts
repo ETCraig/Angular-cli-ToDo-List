@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import {AddingService} from '../../services/adding.service';
+import { AddingService } from '../../services/adding.service';
 
 @Component({
   selector: 'app-input',
@@ -14,7 +14,7 @@ export class InputComponent implements OnInit {
   //Like constructor in React creates initial state / data
   constructor(private addingService: AddingService) {
     this.inputText = '';
-   }
+  }
 
   ngOnInit() {
   }

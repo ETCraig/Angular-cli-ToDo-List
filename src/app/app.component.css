@@ -33,3 +33,34 @@
     background: #333;
     width: 500px;
 }
+
+@media (max-width: 768px) {
+    #app-main {
+      overflow: auto;
+    }
+    .app-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .right-wrap {
+      flex: 0;
+      height: 80vh;
+    }
+    .left-wrap {
+      justify-content: start;
+      margin-top: 4vh;
+      height: 20vh;
+    }
+  }
+
+@media(max-width: 531px) {
+    .title-wrap {
+        width: 250px;
+    }
+}
+
+@media(max-width: 355px) {
+    .title-wrap {
+        width: 175px;
+    }
+}

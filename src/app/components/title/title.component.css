@@ -4,3 +4,9 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-decoration-color: #c91717;
 }
+
+@media(max-width: 531px) {
+    h1 {
+        font-size: 20px;
+    }
+}

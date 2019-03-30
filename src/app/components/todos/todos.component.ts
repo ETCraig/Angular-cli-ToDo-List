@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import {Todo} from '../../classes/todo';
-import {AddingService} from '../../services/adding.service';
+import { Todo } from '../../classes/todo';
+import { AddingService } from '../../services/adding.service';
 
 @Component({
   selector: 'app-todos',
@@ -12,7 +12,7 @@ export class TodosComponent implements OnInit {
 
   @Input()
   private todo: Todo;
-  
+
   constructor(private addingService: AddingService) { }
 
   ngOnInit() {
